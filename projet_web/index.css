@@ -1,0 +1,92 @@
+nav {
+    font-size: 1em;
+}
+body{
+    font-size: 0.8em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-grey {
+    color: grey;
+}
+
+.text-green {
+    color:yellowgreen;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color:white;
+    position: sticky; 
+    position: center;
+    top: 0; 
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+  }
+
+  .left-side {
+    flex: 50%;
+  }
+
+  .right-side {   
+    flex: 50%;
+  }
+
+  .flex-container2 {
+    display:flex;
+    flex-wrap: wrap;
+    width: 60%;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 1.5%;
+    list-style-type: none;
+  }
+
+  .flex-container3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+
+  footer {
+  display: flex;
+  align-items: flex-start;
+}
