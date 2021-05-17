@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site</title>
     <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
 </head>
 <body>
     <header class="navbar">
         <nav class="flex-container">
             <div>
-                <a><img src="images\brand.png" alt="logo"></a>
+                <img src="images\brand.png" alt="logo">
             </div>
             <div>
                 <a><span class="text-grey">CALL US:</span> <B>(+080) 9684 32 45 789</B></a>
@@ -28,7 +29,12 @@
             </div>
         </nav>
     </header>
-    <a><img src="images\slide1.jpg" alt="maison" class="center" width="95%"></a>
+    <div id="slider">
+        <img src="images\slide1.jpg" alt="maison" id="slide" class="center" width="95%">
+        <div id="precedent" onclick="ChangeSlide(-1)"><</div>
+        <div id="suivant" onclick="ChangeSlide(1)">></div>
+    </div>
+    
 
     <div class="row">
         <div class="left-side">
@@ -69,11 +75,11 @@
         <div><img src="images\model.png" alt="" width="400" height="150" class="center"></div>
     </div>
     <div class="flex-container2">
-        <div><img src="images\model.png" alt="" width="150" height="75" class="center"></div>
-        <div><img src="images\model.png" alt="" width="150" height="75" class="center"></div>
-        <div><img src="images\model.png" alt="" width="150" height="75" class="center"></div>
-        <div><img src="images\model.png" alt="" width="150" height="75" class="center"></div>
-        <div><img src="images\model.png" alt="" width="150" height="75" class="center"></div>
+        <div><img src="images\partner1.png" alt="" class="center"></div>
+        <div><img src="images\partner2.png" alt="" class="center"></div>
+        <div><img src="images\partner3.png" alt="" class="center"></div>
+        <div><img src="images\partner4.png" alt="" class="center"></div>
+        <div><img src="images\partner5.png" alt="" class="center"></div>
     </div>
 
     <div>
@@ -85,8 +91,41 @@
         <div><img src="images\news3.jpg" alt="" width="250" class="center"></div>
     </div>
 
-    <footer>
+    <HR width="90%">
 
+    <footer>
+        <div>
+            <img src="images\brand.png" alt="">
+        </div>
+        <div>
+            c Bauhaus 2017<br>
+            All rights reserved
+        </div>
+        <div>
+            <a href="">Site Map</a><br>
+            <a href="">Term & policy</a><br>
+            <a href="">Privacy Policy</a><br>
+            <a href="">Help</a><br>
+            <a href="">Affiliate</a>
+        </div>
+        <div>
+            <a href="">Our location</a><br>
+            <a href="">Carrer</a><br>
+            <a href="">About</a><br>
+            <a href="">Contact</a>
+        </div>
+        <div>
+            <select name="bar">
+                <option value="English">English</option>
+                <option value="Français">Français</option>
+            </select>
+        </div>
+        <div>
+            <a href="#"><img src="images\logo_facebook.png" alt="logo_facebook" width="30" height="30"></a>
+            <a href="#"><img src="images\logo_google_plus.png" alt="logo google plus" width="30" height="30"></a>
+            <a href="#"><img src="images\logo_dribbble.png" alt="logo dribbble" width="30" height="30"></a>
+            <a href="#"><img src="images\logo_linked_in.png" alt="logo linkedin" width="30" height="30"></a>
+        </div>
     </footer>
 </body>
 </html>
